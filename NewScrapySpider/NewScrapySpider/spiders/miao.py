@@ -8,7 +8,7 @@ sys.path.append("D:\\python27File\\NewScrapySpider\\NewScrapySpider")
 sys.path.append("D:\\python27File\\NewScrapySpider\\NewScrapySpider\\spiders")
 class NgaSpider(scrapy.Spider):
     name = 'NgaSpider'
-    host='http://crm2.icvip.com/'
+    host='要爬去的网站地址'
     start_urls=['http://crm2.icvip.com/',]
     def start_requests(self):
         for url in self.start_urls:
